@@ -13,7 +13,7 @@ public class Asteroids extends Game {
 
     @Override
     public void create() {
-        setScreen(new TestScreen());
+        setScreen(new MainMenuScreen(this));
 
         setupFont();
     }
